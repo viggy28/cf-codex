@@ -1,0 +1,6 @@
+# Protects every cf-codex session route.
+# Generate with: openssl rand -hex 32
+CF_CODEX_API_TOKEN="replace-with-a-long-random-token"
+
+# No OpenAI API key is required. Each remote session uses Codex device login
+# and consumes the authenticated ChatGPT/Codex subscription allowance.
